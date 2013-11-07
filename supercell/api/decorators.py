@@ -65,7 +65,6 @@ def provides(content_type, vendor=None, version=None, default=False):
             ...
 
     :param str content_type: The base content type such as **application/json**
-    :param model: The model that should be consumed.
     :param str vendor: Any vendor information for the base content type
     :param float version: The vendor version
     :param bool default: If **True** and no **Accept** header is present, this
