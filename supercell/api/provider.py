@@ -139,4 +139,4 @@ class JsonProvider(ProviderBase):
 
         .. seealso:: :py:mod:`supercell.api.provider.ProviderBase.provide`
         '''
-        handler.write(model.validate())
+        handler.write(model.to_primitive())
